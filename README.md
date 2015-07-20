@@ -4,7 +4,7 @@ This repository contains Python script that automate the installation of an Open
 
 In case you are trying this in VirtualBox, make sure you configure the virtual machines as follow.
 
-CONTROLLER NODE:
+<h1>CONTROLLER NODE</h1>:
 
 Virtual Machine Network Cards
 
