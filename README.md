@@ -16,8 +16,8 @@ Virtual Machine Partition Table
 	-11GB physical Volume(LVM) -> volume group (vgroot) -> logical volume (volroot)
 
 Execute the following scripts on the Controller Node and then reboot.
-#python enable_openstack_repository.py
-#python controller_installer.py
+python enable_openstack_repository.py
+python controller_installer.py
 
 NETWORK NODE:
 Virtual Machine Network Cards
@@ -33,8 +33,8 @@ Virtual Machine Partition Table
 	-11GB physical Volume(LVM) -> volume group (vgroot) -> logical volume (volroot)
 
 Execute the following scripts on the Controller Node and then reboot.
-#python enable_openstack_repository.py
-#python network_installer.py
+python enable_openstack_repository.py
+python network_installer.py
 
 
 COMPUTE NODES:
@@ -50,5 +50,5 @@ Virtual Machine Partition Table
 	-11GB physical Volume(LVM) -> volume group (vgroot) -> logical volume (volroot)
 
 Execute the following scripts on the Controller Node and then reboot.
-#python enable_openstack_repository.py
-#python compute_installer.py [hypervisor_type]
+python enable_openstack_repository.py
+python compute_installer.py [hypervisor_type]
