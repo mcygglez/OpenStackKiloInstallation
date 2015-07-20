@@ -5,7 +5,9 @@ This repository contains Python script that automate the installation of an Open
 In case you are trying this in VirtualBox, make sure you configure the virtual machines as follow.
 
 CONTROLLER NODE:
+
 Virtual Machine Network Cards
+
 -vNIC (eth0) in Host Only Network (138.4.19.0/4) Adapter Type: Paravirtualized Promiscuous Mode: Allow All
 -vNIC (eth1) in NAT Network 
 
